@@ -1,0 +1,125 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "egg hiding game",
+            "intents": [
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop",
+                        "off",
+                        "shut up"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "start over",
+                        "restart",
+                        "start again",
+                        "play again"
+                    ]
+                },
+                {
+                    "name": "DescriptionIntent",
+                    "slots": [
+                        {
+                            "name": "Description",
+                            "type": "descriptionType"
+                        }
+                    ],
+                    "samples": [
+                        "{Description} please",
+                        "please {Description}",
+                        "{Description}",
+                        "can you {Description}",
+                        "tell me about that",
+                        "description please"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "descriptionType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "tell me more"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "describe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "describe it"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
